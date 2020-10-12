@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Magic Eight Ball</title>
+        <style>
+            body {
+                background-image: url(navystarrybackground.jpg);
+                background-size: cover;
+                background-color: navy;
+                font-size: 13pt;
+                text-align: center;
+                color: ghostwhite;
+                padding-top: 30px;
+                font-family: cursive;
+            }
+            h1 {
+                font-size: 30pt;
+            }
+            img {
+                height: 500px;
+            }
+            button {
+                background-color: transparent;
+                color: white;
+                border: 2px dotted white;
+                border-radius: 15%;
+                font-family: cursive;
+                position: relative;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Magic Eight Ball</h1>
+        <p>Enter your question below and see what your future holds</p>
+        <img src="magiceightball.png" alt="Magic Eight Ball">
+        <form>
+            <label><small>Type Question Here:</small></label><br>
+            <input type="text" id="questionInput" name="question" placeholder="Will my girlfriend cheat on me?"/>
+            <button id="answerButton">Learn Fate</button>
+            
+        </form>
+    </body>
+</html>
+
+<!-- Need to figure out how to edit image fuzziness on outer edge and lengthen text box to autofit the user text.
+
+    Also need to figure out how to get text to show on blue triangle. 
+
+    Want to find better, less generic fonts as well.-->
